@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copy{
+    color: gray;
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+#heading{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: gray;
+    font-size: 40px;
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#sign-Out{
+   margin-top: 20px; 
+   border: none;
+   outline: none;
+   color: white;
+   font-weight: bold;
+   font-size: 20px;
+   background-color: rgb(13, 221, 221);
+   border-radius: 15px;
+   padding: 5px 20px;
+}
+#sign-Out:hover{
+    background-color: rgb(0, 255, 255);
+}
